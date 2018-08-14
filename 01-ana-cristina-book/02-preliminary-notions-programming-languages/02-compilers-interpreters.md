@@ -5,5 +5,5 @@
     * Execution in a single batch
 * **Interpreter**
     * Each expression is directly executed
-        * Transformed in corresponding instruction and executed in the computer
+        * Transformed in the corresponding instruction and executed in the computer
         * On-demand execution
