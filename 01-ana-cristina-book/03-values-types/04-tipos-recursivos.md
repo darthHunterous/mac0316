@@ -42,7 +42,7 @@
     }
     ```
 * Linguagens funcionais possuem listas como tipos predefinidos (**list**)
-    * Por consequência, apresenta operações básica predefinidas, como
+    * Por consequência, apresenta operações básicas predefinidas, como
         * **hd** -> primeiro elemento da lista
         * <code>**l**</code> -> lista sem pimeiro elemento
         * **length** -> tamanho da lista
@@ -75,4 +75,3 @@
         ```
         * nil representa a lista vazia e cons, o construtor
         * Na segunda linha, constrói-se (cons) uma nova lista com um valor inteiro (int) combinado (\*) com uma lista de inteiros (IntlistS)
-            
