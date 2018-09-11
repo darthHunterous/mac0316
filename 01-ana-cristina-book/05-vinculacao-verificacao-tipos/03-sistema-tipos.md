@@ -85,6 +85,6 @@
     * Como exemplo, os **arrays**
         * Arrays podem ser instanciados para construir novos tipos a partir dos existentes
         * Arrays são tipos genéricos, que possuem outro parâmetro como tipo, podendo ser instanciado em outros tipos predefinidos nas linguagens
-* Tempo de vinculação de variáveis com tipos monomórficos ou polimórficos
+* Tempo de vinculação de variáveis com tipos monomórficos ou polimórficos   
     * Para linguagens puramente monomórficas, os tipos se vinculam às variáveis de maneira estática
     * Para tipos polimórficos ou sobrecarregados, certas vinculações dependem dos dados usado e portanto são realizadas em tempo de execução (vinculação dinâmica)
