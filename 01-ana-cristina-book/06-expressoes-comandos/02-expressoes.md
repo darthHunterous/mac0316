@@ -45,3 +45,10 @@
         * `(x > 0 ) AND ((y/x) > 2)`
             * Se x for zero, há um erro de execução, porém se o processador da linguagem truncar a avaliação da expressão assim que o resultado puder ser inferido, x > 0 resulta falso, poranto a expressão completa seguirá sendo falsa, independentemente do segundo resultado
 * **6.2.2.2 - Efeitos Colaterais:**
+    * Expressões compostas por literais, constantes, variáveis ou que envolvam apenas os operadores aritméticos predefinidos com variáveis e literais não provocam mudanças no estado do programa
+    * Quando a expressão contém aplicação de função, operações internas da função podem gerar mudanças no estado do programa (efeito colateral)
+    * Um **exemplo** seria uma função que soma 10 ao valor de uma variável global nomeada x e retorna 10 como valor de retorno da função. O uso dessa função tem como efeito colateral a modificação do valor de x, portanto, a expressão `x + fun1();` gera resultados diferentes de acordo com a ordem de avaliação da expressão.
+    * **Alternativas ao efeito colateral**
+        * Projetista da linguagem pode impedir que a avaliação da função altera o valor da expressão
+        * Definição de uma ordem de avaliação das expressões que deve ser seguida pelos processadores da linguagem
+        * Proibir o uso de funções em uma expressão que modifique o valor de variáveis existentes na própria expressão
